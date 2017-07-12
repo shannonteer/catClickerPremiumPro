@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 id="greeting" class="greeting">Click on a cat's name to change cats</h2><br>
+    <ul id="cat-list">
+
+    </ul>
+        <br>
+    <div id="cat">
+        <h2 id="catName"></h2>
+        <div id="catCount">
+
+        </div>
+        <img id="catImage" src="" alt="cat image"/>
+    </div>
+        <button id="admin" name="admin" type="button">Admin</button>
+    <div id="adminMode">
+    <form id="adminForm" method="post">
+            <input title="Name" id="adminName" placeholder="Name" type="text">
+            <input title="URL" id="adminUrl" placeholder= "URL" type="text">
+            <input title="Clicks" id="adminClickNumber" placeholder="Clicks" type="text">
+        </form>
+        <button id="cancel" name="cancel" type="button">Cancel</button>
+        <button id="save" name="save" type="button">Save</button>
+    </div>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

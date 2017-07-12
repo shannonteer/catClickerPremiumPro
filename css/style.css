@@ -1,0 +1,42 @@
+
+/* CSS Document */
+
+html,
+html * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Candara, Geneva, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: #fcf0de;
+
+}
+
+
+h2 {
+    margin-top: 20px;
+}
+
+#catList {
+    width: 200px;
+}
+
+li {
+    padding: 10px;
+    background-color: rgb(189, 176, 148);
+
+}
+
+#catDisplay {
+    width: 400px;
+}
+
+#catImage {
+    max-width: 300px;
+}
+
+#admin, #save, #cancel {
+    padding: 20px;
+    margin: 10px;
+}
